@@ -44,7 +44,7 @@ export default function App() {
     setIsLoading(true);
 
     try {
-      const response = await fetch('https://m1o1a1z.app.n8n.cloud/webhook/0891b873-0b99-4e2a-a84e-5afcdfb1515e', {
+      const response = await fetch('https://m1o1a1z.app.n8n.cloud/webhook/09cff520-6d06-4132-93b6-56ec4bff7510', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ chatInput: userMessage, sessionId: 'user-session-123' })
